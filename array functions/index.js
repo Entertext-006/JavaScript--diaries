@@ -119,3 +119,29 @@ function isPalindrome(element){
     return element === reversed;
 }
 
+
+const numbers2=[10,20,30,40,50];
+const sum=numbers2.reduce(sumNumbers);
+
+console.log('Sum of numbers:', sum);
+
+function sumNumbers(accumulator, currentValue){
+    return accumulator + currentValue;
+}
+
+const maxValue=numbers2.reduce(maxNumber);
+console.log('Maximum value:', maxValue);
+function maxNumber(accumulator, currentValue){
+    return Math.max(accumulator, currentValue);
+}
+
+const num=[1,2,3,4,5];
+
+const square= num.map((element) => Math.pow(element,2));
+console.log('Squared numbers using arrow function:', square);
+
+const cube= num.map((element) => Math.pow(element,3));
+console.log('Cubed numbers using arrow function:', cube);
+
+const evenNumbers=num.filter((element) => element % 2 === 0);
+console.log('Even numbers using arrow function:', evenNumbers);
