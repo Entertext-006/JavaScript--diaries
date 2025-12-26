@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+#counterDisplay{
+    font-size: 150px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 100px 20px;
+}
+#messageDisplay{
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 30px;
+}
+.button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div id="DiceContainer">
+            <h1>Dice Roller</h1>
+            <label for="diceType">Select Dice Type:</label>
+            <input type="number" id="numDice" placeholder="Number of Dice" min="1" value="1">
+            <input type="button" id="rollButton" label="Roll" onclick="rollDice()" value="Roll Dice">
+            <div id="ResultsContainer">
+            <h2>Results:</h2>
+            <div id="Results"></div>
+        </div>
+        <div id="DiceImagesContainer">
+            <h2>Dice Images:</h2>
+            <div id="DiceImages"></div>
+        </div>
+        </div>
+        <script defer src="index.js"></script>
+    </body>
+</head>
+</html>

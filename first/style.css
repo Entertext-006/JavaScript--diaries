@@ -1,0 +1,18 @@
+#header{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#displayArea{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#ageDisplayArea{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
